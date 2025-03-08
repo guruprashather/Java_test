@@ -117,7 +117,7 @@ public class Question1 {
         helpDesk.completeTicket("Bob Smith", 104);
         helpDesk.completeTicket("Alice Brown", 105);
 
-        System.out.println(+ helpDesk.getWaitingTicketCount());
-        System.out.println( + helpDesk.getCompletedTicketsTotalPoint());
+        System.out.println(helpDesk.getWaitingTicketCount());
+        System.out.println( helpDesk.getCompletedTicketsTotalPoint());
     }
 }
